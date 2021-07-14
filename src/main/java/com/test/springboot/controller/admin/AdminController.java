@@ -1,15 +1,17 @@
-package com.test.springboot.controller;
+package com.test.springboot.controller.admin;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class ControllerTest {
+@RequestMapping("/admin")
+public class AdminController {
 
-    @GetMapping("/hello")
+    @GetMapping("hello")
     @ResponseBody
     public String hello(){
-        return "hello";
+        return "hello admin!!!";
     }
 }
