@@ -4,10 +4,11 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(schema = "test",name = "t_image")
+@Table(name = "t_image")
 public class Image {
 
   @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private String id;
   @Column(name = "name")
   private String name;

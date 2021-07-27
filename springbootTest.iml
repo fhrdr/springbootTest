@@ -18,7 +18,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="entityManagerFactory" />
+          <factory-entry name="entityManagerFactory" value="5ac9c321-fd8d-4dec-917f-661d72358d54" />
           <factory-entry name="springbootTest" value="bc340f94-4df5-4dae-8a37-3d307d755254" />
         </datasource-mapping>
         <naming-strategy-map />
@@ -48,8 +48,6 @@
     <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.28" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.5.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.3" level="project" />
@@ -151,5 +149,13 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.5.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.8" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.auth0:java-jwt:3.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.55" level="project" />
+    <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt:0.7.0" level="project" />
   </component>
 </module>

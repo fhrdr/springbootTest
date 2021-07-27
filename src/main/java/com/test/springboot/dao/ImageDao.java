@@ -7,6 +7,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-
-public interface ImageDao extends JpaRepository<Image,String>, JpaSpecificationExecutor<Image> {
+public interface ImageDao extends JpaRepository<Image,Long>, JpaSpecificationExecutor<Image> {
 }

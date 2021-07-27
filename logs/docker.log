@@ -1,0 +1,27 @@
+2021-07-19 19:16:50.093 [ restartedMain ] - [ INFO  ] [ com.test.springboot.SpringbootApplication : 55 ] - Starting SpringbootApplication using Java 1.8.0_161 on DESKTOP-4H652VQ with PID 9780 (E:\BeeTeam团队任务\项目代码库\springbootTest\target\classes started by Fhrdr in E:\BeeTeam团队任务\项目代码库\springbootTest)
+2021-07-19 19:16:50.097 [ restartedMain ] - [ INFO  ] [ com.test.springboot.SpringbootApplication : 659 ] - No active profile set, falling back to default profiles: default
+2021-07-19 19:16:51.932 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-80"]
+2021-07-19 19:16:51.933 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-07-19 19:16:51.935 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-19 19:16:52.035 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-07-19 19:16:52.248 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - test - Starting...
+2021-07-19 19:16:53.155 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - test - Start completed.
+2021-07-19 19:16:53.196 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-19 19:16:53.239 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-19 19:16:53.355 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 56 ] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-19 19:16:53.473 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 175 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-07-19 19:16:54.067 [ restartedMain ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-19 19:16:54.976 [ restartedMain ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-19 19:16:55.547 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-80"]
+2021-07-19 19:16:55.581 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2021-07-19 19:16:55.600 [ restartedMain ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 4 custom documentation plugin(s)
+2021-07-19 19:16:55.633 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-07-19 19:16:55.722 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: helloUsingGET_1
+2021-07-19 19:16:55.730 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: helloUsingGET_2
+2021-07-19 19:16:55.743 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-07-19 19:16:55.745 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: helloUsingGET_3
+2021-07-19 19:16:55.750 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-07-19 19:16:55.751 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: helloUsingGET_4
+2021-07-19 19:16:55.754 [ restartedMain ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-07-19 19:16:55.756 [ restartedMain ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: helloUsingGET_5
+2021-07-19 19:16:55.777 [ restartedMain ] - [ INFO  ] [ com.test.springboot.SpringbootApplication : 61 ] - Started SpringbootApplication in 6.419 seconds (JVM running for 8.349)
