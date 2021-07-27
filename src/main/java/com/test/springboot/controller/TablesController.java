@@ -24,6 +24,7 @@ public class TablesController {
     private TeacherDao teacherDao;
 
     // 一对多关系
+
     @GetMapping("/get_all_groups")
     public List<Group> getAllGroups(){
         return groupDao.findAll();
